@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comptible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header" id="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+        </nav>
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Anurag Rai</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Welcome to my Portfolio Website! Thank you for taking time to visit.
+            <br>Enjoy your time browsing through my Portfolio. </p>
+            <div class="social-media">
+                <a href="https://github.com/anurag87204"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.leetcode.com/Anurag_079"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://www.linkedin.com/in/contactanuragrai/"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:anuragrai13856@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+            <a href="#" class="btn" onclick="sendEmail()">Hire Me!</a>
+        </div>
+        <div class="home-img">
+            <img src="images\Pictures\home.png" alt="">
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="images\Pictures\about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h3>web dev || 500+🌟Linkdin(Connection)</h3>
+            <p>• I am a highly motivated and skilled professional in the field of computer science, specializing in web development and programming. With a Bachelor of Computer Application (BCA) degree in Computer Science from Rajarshi school of management and technology Varanasi, I have a strong foundation in HTML, HTML5, Cascading Style Sheets (CSS), Javascript, Java, and React and Nodejs.
+
+                Throughout my career, I have successfully executed various web development projects, leveraging my expertise in front-end and back-end technologies. I am passionate about creating visually appealing and user-friendly websites that deliver exceptional user experiences. My knowledge of HTML, HTML5, and CSS allows me to design and implement captivating interfaces, while my proficiency in Java, PHP, and MySQL enables me to develop dynamic and robust web applications.
+                
+                In addition to my technical abilities, I possess effective communication and interpersonal skills, allowing me to effectively collaborate with cross-functional teams. I am a strong believer in continuous learning and staying up-to-date with the latest industry trends and advancements.
+                
+                I am now actively seeking new opportunities that will allow me to apply my skills and make a significant impact..</p>
+            <a href="Resumee.pdf" download class="btn">Download CV</a>
+
+        </div>
+    </section>
+
+     <!-- Education Section -->
+     <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2020 - 2023</div>
+                            <h3>BCA - Bachelor of Computer Application </h3>
+                            <p>Rajarshi School of management and Technology </p>
+                            <p>Varanasi, Uttar Pradesh, India</p>
+                            <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;varanasi, Uttar pradesh</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2018 - 2020</div>
+                            <h3>Intermediate Education</h3>
+                            <p>S.I.B.S.National Inter Collage</p>
+                            <p>CGPA: 7.80/10</p>
+                            <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Bhadohi Uttar Pradesh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 11 March 2023 - 15 September 2023</div>
+                            <h3>Dhanlaxmi Bank</h3>
+                            <p><i class="fa-solid fa-house-laptop"></i>&nbsp; Accounting</p>
+                            <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Remote</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 1 November 2023 - 1 December 2023</div>
+                            <h3>Octanet Services </h3>
+                            <p><i class="fa-solid fa-house-laptop"></i>&nbsp; Web Developer Intern </p>
+                            <p><i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;Varanasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- certificates section -->
+            <div class="education-column">
+                <h3 class="title">Certificates</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> SEPTEMBER 2023 - OCTOBER 2023</div>
+                            <h3>LetsUpgrade</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp; JavaScript (5 Days BootCamp) </p>
+                            <a href="https://drive.google.com/file/d/19-1hEfQCTHPur9wLKES3ljQGYVCcc1mQ/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>OCTOBER 2023</div>
+                            <h3>LetsUpgraded</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;Java (Basic)</p>
+                            <a href="https://drive.google.com/file/d/19OU5_TIL8Klvytzfbg56gTXwA56d6N0i/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>November2023</div>
+                            <h3>LetsUpgraded</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;Python</p>
+                            <a href="https://drive.google.com/file/d/19SY3ulc5Puhk5X8VUww-fJ2TYxvRDNBT/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>October 2023</div>
+                            <h3>LetsUpgrade</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;HTML and CSS </p>
+                            <a href="https://drive.google.com/file/d/19WKmmi3JYxEfAl9faj3rjkttwyDX-y4j/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>10 july 2023 to 10 August</div>
+                            <h3>BHARAT INTERN</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;DATA SCIENCE Intern</p>
+                            <a href="https://drive.google.com/file/d/1nUUfru5Kn_Vy0Ywtm8fiLe39bjjwFL1I/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>JULY 2023</div>
+                            <h3>Forage</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;KPMG Data Analytics Consulting Virtual Internship</p>
+                            <a href="https://drive.google.com/file/d/1SmS_pIBMAQjRkDe3tLM095AK_FNL2xHn/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>June 2023</div>
+                            <h3>Accenture</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;Developer Virtual Experience Program</p
+                            <a href="https://drive.google.com/file/d/1CSCT-rhGvHLrSD8cHv3sTEnVXRTlRTXN/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>December2023</div>
+                            <h3>Octanet Services </h3>
+                            <p><i class='bx bx-certification'></i>&nbsp; Web Development and website Designing</p>
+                            <a href="https://drive.google.com/file/d/19vnQbPeZIEIXC7rV33FXwZD4wXcUDVBE/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>December 2023</div>
+                            <h3>LetsUpgraded</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;React Zero to hero</p>
+                            <a href="https://drive.google.com/file/d/1NyFe6eoq7MLIlZUNt5aL5Cs9k59sdXdq/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> November 2023</div>
+                            <h3>LetsUpgraded</h3>
+                            <p><i class='bx bx-certification'></i>&nbsp;DSA in C++</p>
+                            <a href="https://drive.google.com/file/d/1DfNjGn9fWAFNXwzYT5AvwyVSzYZYWqHp/view?usp=drivesdk" class="btn">Show Credentials &nbsp;<i class="fa-regular fa-share-from-square"></i></a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-main">
+            <div class="skills-left">
+                <h3>Technical Skills</h3>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>90%</p>
+                    </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>85%</p>
+                    </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>JAVASCRIPT</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>C & Data Structures</p>
+                        <p>45%</p>
+                    </div>
+                <div class="bar">
+                    <span class="c"></span>
+                </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>C++</p>
+                        <p>55%</p>
+                    </div>
+                <div class="bar">
+                    <span class="c1"></span>
+                </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>JAVA</p>
+                        <p>78%</p>
+                    </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+                </div>
+                <div class="skills-bar">
+                    <div class="info">
+                        <p>PYTHON</p>
+                        <p>78%</p>
+                    </div>
+                <div class="bar">
+                    <span class="python"></span>
+                </div>
+                </div>
+            </div>
+            <div class="skills-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="80"></div>
+                        <div class="text">
+                            <p>80%</p>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="75"></div>
+                        <div class="text">
+                            <p>75%</p>
+                            <small>Leadership</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="82"></div>
+                        <div class="text">
+                            <p>82%</p>
+                            <small>Problem-solving</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="89"></div>
+                        <div class="text">
+                            <p>89%</p>
+                            <small>Presentation</small>
+                        </div>
+                    </div> 
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="90"></div>
+                        <div class="text">
+                            <p>90%</p>
+                            <small>Time management</small>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle" data-dots="50" data-percent="78"></div>
+                        <div class="text">
+                            <p>78%</p>
+                            <small>Team Work</small>
+                        </div>
+                    </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION-->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images\Projects\Adventure vlog web.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Adventure vlog web </h4>
+                    <p>THE Adventure vlog website is for short information for all sport like riding suffring and glading.</p>
+                    <a href="https://github.com/anurag87204/Adventure-website"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="images\Projects\Memory Game.png" alt="">
+                <div class="project-layer">
+                    <h4>Memory Game </h4>
+                    <p> Memory game is with the theme of Clash Royal with some Character if two  char is same then game is continue and there are 5 live for  game..</p>
+                    <a href="https://github.com/anurag87204/Memory-Game"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="images\Projects\horse riding.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Horse riding</h4>
+                    <p>This is a horse riding project </p>
+                    <a href="https://github.com/anurag87204/horse-riding"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Anurag Rai | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+ 
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html> 
