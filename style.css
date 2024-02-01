@@ -96,7 +96,7 @@ section{
   color: var(--second-bg-color);
   display: none;
 }
-.home{
+/* .home{
   display: flex;
   gap: 8rem;
   align-items: center;
@@ -110,7 +110,7 @@ section{
   
   
 
-} 
+}  */
 .home-content h3{
   font-size: 3.2rem;
   font-weight: 700;
