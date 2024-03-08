@@ -70,7 +70,7 @@ ScrollReveal().reveal('.home-content p, .about-content, .skills-right', { origin
 
 /////////////typed js////////////////
 const typed = new Typed('.multiple-text',{
-    strings: ['FULL STACK DEVELOPER','WEB APP DEVELOPER' , 'DATA ANALYTICS'],
+    strings: ['FULL STACK DEVELOPER'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
